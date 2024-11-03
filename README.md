@@ -1,7 +1,14 @@
-# A Graphql Query Server 
-GraphQL server - supports Query operation only.  Queries with multiple statements has each statement executed concurrently.
+## A Graphql Query Server ##
 
-# Testing
-cd parser
-go test  -v \> test.all.log &
-tail -10f test.all.log
+Supports Query operations only.  
+
+Queries with multiple statements has statements executed concurrently.
+
+Implements the GraphQL specification of 2018: http://spec.graphql.org/June2018/
+
+## Test Scripts ##
+```
+  cd parser
+  go test  -v > test.all.log &
+  tail -10f test.all.log
+```

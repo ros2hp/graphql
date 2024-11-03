@@ -7,6 +7,9 @@ Queries with multiple statements has statements executed concurrently.
 Implements the GraphQL specification of 2018: http://spec.graphql.org/June2018/
 
 ## Test Scripts ##
+
+78 test functions are include.
+
 ```
   cd parser
   go test  -v > test.all.log &
